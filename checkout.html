@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Negratone</title>
+    <link rel="icon" href="./img/logo-negratone.png">
+     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+     <link rel="stylesheet" href="/estilos/checkout-estilos.css">
+</head>
+<body>
+    <header>
+        <img src="/img/Negratone.png" class="negratone">
+        <div  class="busq">
+            <input type="text" class="input-busq" placeholder="Buscar productos...">
+            <button class="busq-button">
+                <i class="fi fi-rs-search"></i>
+            </button>
+        </a>  
+        </div>
+        <div class="user">
+            <a href="./cart.html" class="user-item">
+                <i class="fi fi-rs-shopping-cart"></i>
+            </a>
+            <a href="./login.html" class="user-item">
+                <i class="fi fi-rs-user"> </i>
+            </a>
+        </div>
+    </header>
+    <div class="fondo">
+        <div class="entrega">
+            <div class="casa">
+                <input type="radio" id="op" name="lo">
+                <label for="op">
+                    <h2>Enviar a domicilio</h2>
+                    <p>Jujuy 356 - Villa Mercedes, San Luis CP 5730</p>
+                    <span>Hogar</span>
+                    
+                </label>
+                <span class="free">Gratis</span>
+                
+            </div>
+            <div class="casa">
+                <input type="radio" id="ip" name="lo">
+                <label for="ip">
+                    <h2>Retirar en un punto de entrega</h2>
+                    <p>Pescadores 1342 - Villa Mercedes, San Luis CP 5730</p>
+                    <p>Lu a Vi: 9 a 12:30 hs. Lu a Vi: 16 a 20 hs.</p>
+                    <span>A 2km de tu casa</span>
+                    
+                </label>
+                <span class="free">Gratis</span>
+            </div>
+            <div class="casa">
+                <input type="radio" id="up" name="lo">
+                <label for="up">
+                    <h2>Retirar en el local</h2>
+                    <p>Jujuy 356 - Rio Cuarto, Cordoba CP 5800</p>
+                    <p>Lu a Vi: 9 a 12:30 hs. Lu a Vi: 16 a 20 hs.</p>
+                    
+                </label>
+                <span class="free">Gratis</span>
+            </div>
+        </div>
+        <div class="resumen">
+            <h3 class="tit">Resumen de compra</h3>
+            <div class="rell">
+                <p>Productos (102)</p>
+                <p>108.800 Pun.</p>
+                <span>Envío</span>
+                <span>Gratis</span>
+                
+            </div>
+            <div class="tit">
+                <h3>Total</h3> 
+                <p>108.800 Pun.</p>
+            </div>
+            <button class="cash" onclick="alert('¡Gracias por confiar en nosotros! ¡Realizaste tu compra!')">Pagar</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
